@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bitcount+Ink:wght@100..900&family=Isometra&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background-color: #f3f5f5;
+            font-family: 'Arimo', sans-serif;
+        }
+
+        form {
+            width: 25%;
+            border: 1px solid black;
+            padding: 12px;
+            color: black;
+            margin: auto;
+        }
+
+        .lbl-full {
+            display: block;
+        }
+
+        .input-full {
+            width: 100%;
+            padding: 12px;
+            box-sizing: border-box;
+            margin-bottom: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <label class="lbl-full" for="Full name">First and last Name</label>
+        <input class="input-full" type="text" name="Full name" id="full name" placeholder="John Doe">
+
+        <label class="lbl-full" for="Email">Email</label>
+        <input class="input-full" type="email" name="Email" id="Email" placeholder="johndoe@gmail.com">
+
+        <label class="lbl-full" for="password">Password</label>
+        <input class="input-full" type="password" name="password" id="password" placeholder="**********">
+
+        <label class="lbl-full" for="phone">Phone</label>
+        <input class="input-full" type="tel" name="phone" id="phone" placeholder="0723456789">
+
+        <label for="gender">Gender</label>
+        <br>
+        <input  type="radio" name="gender" id="male" value="m">
+
+        <label for="male">Male</label>
+
+
+
+        <input type="radio" name="gender" id="female" value="f" checked>
+        <label for="female">Female</label>
+<br>
+
+        <br>
+        <input type="checkbox" name="Tennis" id="tennis" value="tennis">
+        <label for="tennis">Tennis</label>
+        <br>
+
+        <input type="checkbox" name="Rugby" id="rugby" value="rugby">
+        <label for="rugby">Rugby</label>
+
+        <br>
+
+        <input type="checkbox" name="Soccer" id="soccer" value="soccer">
+        <label for="soccer">Soccer</label>
+
+        <br>
+
+        <input type="checkbox" name="Volleyball" id="volleyball" value="volleyball">
+        <label for="volleyball">Volleyball</label>
+        <br>
+
+        <label class="lbl-full" for="County">County</label>
+        <select class="input-full" name="County" id="County">
+            <option value="">Select County</option>
+            <option value="Nairobi">Nairobi</option>
+            <option value="Mombasa">Mombasa</option>
+            <option value="Eldoret">Eldoret</option>
+        </select>
+
+
+
+        <label for="Dob">Date of Birth</label>
+        <input type="date" name="Dob" id="Dob" required min="1940-01-01" max="2009-01-01">
+
+
+
+    </form>
+</body>
+
+</html>
